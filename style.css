@@ -2,7 +2,7 @@ body {
     font-family: 'Courier New', Courier, monospace; /* Typewriter-Schrift */
     margin: 0;
     padding: 0;
-    background-color: #fff; /* Weißer Hintergrund */
+    background-color: #ffffff; /* Weißer Hintergrund */
     color: #000;
     display: flex;
     flex-direction: column;
@@ -16,7 +16,9 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column; /* Elemente untereinander anordnen */
 }
+
 
 h1 {
     color: #388e3c; /* Grüne Farbe */
@@ -29,9 +31,10 @@ footer {
     font-size: 1rem;
     color: #000;
     padding: 10px;
-    background-color: #f8f9fa; /* Heller Footer-Hintergrund */
+    background-color: white; /* Heller Footer-Hintergrund */
 }
 
 .navbar {
     width: 100%;
+    background-color: white; /* Heller Footer-Hintergrund */
 }
