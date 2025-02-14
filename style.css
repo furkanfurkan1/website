@@ -38,3 +38,53 @@ footer {
     width: 100%;
     background-color: white; /* Heller Footer-Hintergrund */
 }
+img {
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1); /* Bild um 10% vergrößern */
+}
+#cover-image {
+    width: 100%; /* Passt die Breite an den Container an */
+    max-width: 800px; /* Setzt eine größere maximale Breite für das Cover-Bild */
+    height: auto; /* Beibehaltung des Seitenverhältnisses */
+    display: block; /* Entfernt den unteren Abstand */
+    margin-left: auto; /* Zentriert das Bild */
+    margin-right: auto; /* Zentriert das Bild */
+}
+
+#seek-bar-container {
+    width: 100%; /* Passt die Breite des Containers an */
+    max-width: 800px; /* Gleiche maximale Breite wie das Cover-Bild */
+    margin: 0 auto; /* Zentriert den Container */
+    display: flex; /* Benötigt flex, um die Seek-Bar gut auszurichten */
+    justify-content: center; /* Zentriert den Inhalt (Seek-Bar) horizontal */
+}
+
+#seek-bar {
+    -webkit-appearance: none;
+    width: 100%; /* Passt die Breite der Seek-Bar an den Container an */
+    height: 20px; /* Größere Höhe für die Seek-Bar */
+    border-radius: 10px; /* Mehr abgerundete Ecken */
+    outline: none;
+    transition: 0.3s;
+}
+
+#seek-bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px; /* Größerer Thumb */
+    height: 15px; /* Größere Höhe für den Thumb */
+    background: #28a745; /* Grün wie der Play-Button */
+    border-radius: 50%; /* Runde Form für den Thumb */
+    cursor: pointer;
+}
+
+#seek-bar::-moz-range-thumb {
+    width: 30px;
+    height: 30px;
+    background: #28a745;
+    border-radius: 50%;
+    cursor: pointer;
+}
