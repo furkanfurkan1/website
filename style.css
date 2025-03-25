@@ -47,7 +47,7 @@ img:hover {
 }
 
 #cover-image {
-    width: 100%; /* Passt die Breite an den Container an */
+    width: 80%; /* Passt die Breite an den Container an */
     max-width: 800px; /* Größte Breite */
     height: auto; /* Beibehaltung des Seitenverhältnisses */
     display: block;
@@ -130,4 +130,6 @@ img:hover {
     margin-top: 20px; /* oder ein anderer Wert, der dir gefällt */
     font-size: 1.2em;
   }
+  
+
   
