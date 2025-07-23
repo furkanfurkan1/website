@@ -30,11 +30,26 @@
     </nav>
     
 
-    <!-- Main Content -->
-    <main>
-        
-        <p>The Application</p>
-    </main>
+      <!-- Main Content -->
+<main>
+
+    <p>Coming soon</p>
+    <button onclick="toggleText()">What? and When?</button>
+
+    <br><br>
+
+    <p id="hiddenText" style="display: none;">
+        I dont know man it could be today or it could be in a month or maybe I die and this site gets never ever refreshed again imagine that... yeah. But if you care so much why dont you stay on the site and reload it everyday or matter of fact every hour you never know you know what i mean and dont forget to follow me on instagram
+    </p>
+
+    <script>
+        function toggleText() {
+            const text = document.getElementById("hiddenText");
+            text.style.display = "block";
+        }
+    </script>
+
+</main>
 
     <!-- Footer -->
     <footer>
